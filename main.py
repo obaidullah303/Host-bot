@@ -4342,7 +4342,7 @@ def main() -> None:
     app.add_handler(CommandHandler("schedulerestart", schedulerestart_cmd))
     app.add_handler(CommandHandler("scheduleremove", scheduleremove_cmd))
     app.add_handler(CommandHandler("autostart", autostart_cmd))
-    app.add_handler(CommandHandler("projectbackup", project_backup_cmd))
+    app.add_handler(CommandHandler("projectbackup", projectbackup_cmd))
     app.add_handler(CommandHandler("backups", backups_cmd))
     app.add_handler(CommandHandler("restorebackup", restorebackup_cmd))
     app.add_handler(CommandHandler("logsize", logsize_cmd))
