@@ -4350,7 +4350,6 @@ def main() -> None:
     app.add_handler(CommandHandler("diagnose", diagnose_cmd))
     app.add_handler(CommandHandler("storage", storage_cmd))
     app.add_handler(CommandHandler("setstorage", setstorage_cmd))
-    app.add_kwargs = {}
     app.add_handler(CommandHandler("analytics", analytics_cmd))
     app.add_handler(CommandHandler("addadmin", addadmin_cmd))
     app.add_handler(CommandHandler("deladmin", deladmin_cmd))
