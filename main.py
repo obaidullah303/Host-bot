@@ -64,9 +64,9 @@ from telegram.ext import (
 # ═════════════════════════════════════════════════════════════════════════════
 
 # Revoke every token previously shared in chat and paste a NEW BotFather token.
-TOKEN = os.getenv("BOT_TOKEN"BOT_TOKEN")
+TOKEN = os.getenv("BOT_TOKEN")
 
-OWNER_ID = int(os.getenv("OWNER_ID", "OWNER_ID"))
+OWNER_ID = int(os.getenv("OWNER_ID")
 ACCESS_PASSWORD = "xpobaid7879"
 
 BRAND_NAME = "XP OBAID X Host"
